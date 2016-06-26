@@ -1,31 +1,11 @@
-#Software Requirements Specification for chatbot for facebook messenger
-
+Software Requirements Specification for chatbot for facebook messenger
+_____________________________________________________________________
+______________________________________________________________________
 
 ####Version 1.0 approved
 ####Prepared by Karegyeya Marvin
 ####creativity in motion
 #### 23rd june 2016
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Table of contents
 [TOC]
 
@@ -46,39 +26,38 @@ History.
   2.3. Use Classes and Characteristics
   2.4 Operating Environment
   2.5 Design and Implementation Constraints
-2.6 User Documentation 
-2.7 Assumptions and Dependencies
+  2.6 User Documentation 
+  2.7 Assumptions and Dependencies
 
  3. External Interface Requirements 
   3.1 User Interfaces 
   3.2 Hardware Interfaces.
-3.3 Software Interfaces 
-3.4 Communications Interfaces 
+  3.3 Software Interfaces 
+  3.4 Communications Interfaces 
 
  4.  System Features.
   4.1 System Feature 
- 4.2 System Feature 2 (and so on)
+  4.2 System Feature 2 (and so on)
  
  5. Other Nonfunctional Requirements
    5.1 Performance Requirements
    5.2 Safety Requirements
-  5.3 Security Requirements.
-  5.4 Software Quality Attributes
-  5.5 Business Rules
+   5.3 Security Requirements.
+   5.4 Software Quality Attributes
+   5.5 Business Rules
   
  6. Other Requirements 
-Appendix A: Glossary.
-Appendix B: Analysis Models
-Appendix C: To Be Determined List
-
-
+  Appendix A: Glossary.
+  Appendix B: Analysis Models
+  Appendix C: To Be Determined List
 
 
 Revision History
-Name Date Reason For Changes Version
+Editing of the body of the document sunday 26th june 2016
 
 1. Introduction
-1.1 Purpose
+--------------
+ 1.1 Purpose
 <Identify the product whose software requirements are specified in this document, including the
 revision or release number. Describe the scope of the product that is covered by this SRS,
 particularly if this SRS describes only part of the system or a single subsystem.>
