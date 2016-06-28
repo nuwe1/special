@@ -1,274 +1,178 @@
-Software Requirements Specification for chatbot for facebook messenger
-_____________________________________________________________________
-______________________________________________________________________
-
-####Version 1.0 approved
-####Prepared by Karegyeya Marvin
-####creativity in motion
-#### 23rd june 2016
-### Table of contents
-[TOC]
-
-###Table of Contents 
-Revision 
-History.
-
- 1. introduction
-   1.1. Purpose
-   1.2. Document Conventions
-   1.3. Intended Audience and Reading Suggestions
-   1.4. Product scope
-   1.5. References
-   
- 2. Overall Description
-  2.1. Product Perspective
-  2.2. Product Functions
-  2.3. Use Classes and Characteristics
-  2.4 Operating Environment
-  2.5 Design and Implementation Constraints
-  2.6 User Documentation 
-  2.7 Assumptions and Dependencies
-
- 3. External Interface Requirements 
-  3.1 User Interfaces 
-  3.2 Hardware Interfaces.
-  3.3 Software Interfaces 
-  3.4 Communications Interfaces 
-
- 4.  System Features.
-  4.1 System Feature 
-  4.2 System Feature 2 (and so on)
- 
- 5. Other Nonfunctional Requirements
-   5.1 Performance Requirements
-   5.2 Safety Requirements
-   5.3 Security Requirements.
-   5.4 Software Quality Attributes
-   5.5 Business Rules
-  
- 6. Other Requirements 
-  Appendix A: Glossary.
-  Appendix B: Analysis Models
-  Appendix C: To Be Determined List
 
 
-Revision History
-Editing of the body of the document sunday 26th june 2016
+#Software Requirements Specification Document ##for ##chatbot for facebook messenger ####Version 1.0 approved
 
-1. Introduction
---------------
- 1.1 Purpose
->The purpose forthis document is basically to describe the necesary details that are involved in the creation of the chatbot for facebook Identify the product whose software requirements are specified in this document, including the
-revision or release number. Describe the scope of the product that is covered by this SRS,
-particularly if this SRS describes only part of the system or a single subsystem.>
+##Table of Contents #####Table of Contents ............................................................................ ii #####Revision History.............................................................................. ii
 
-This document is intended to provide a detailed description of the requirement specifications for a chatbot to be built within Facebook messenger. There are no revisions or number releases of this document so far therefore this will be the first release of its kind with version number (Version 1.0.0).
-The document will specifically focus attention on reqirements specifications for a news chatbot as the product in question.
- 
-1.2 Document Conventions
-<Describe any standards or typographical conventions that were followed when writing this SRS,
-such as fonts or highlighting that have special significance. For example, state whether priorities
-for higher-level requirements are assumed to be inherited by detailed requirements, or whether
-every requirement statement is to have its own priority.>
+    Introduction.................................................................................................................1
+        1.1 Purpose ....................................................................................................... 1
+        1.2 Document Conventions.................................................................................. 1
+        1.3 Intended Audience and Reading Suggestions..................................................... 1
+        1.4 Product Scope ............................................................................................... 1
+        1.5 References.................................................................................................... 1
 
+    Overall Description.........................................................................................................2
+        2.1 Product Perspective ...................................................................................... 2
+        2.2 Product Functions ......................................................................................... 2
+        2.3 User Classes and Characteristics ....................................................................2
+        2.4 Operating Environment................................................................................... 2
+        2.5 Design and Implementation Constraints........................................................... 2
+        2.6 User Documentation ...................................................................................... 2
+        2.7 Assumptions and Dependencies ..................................................................... 3
 
+    External Interface Requirements ....................................................................................3
+        3.1 User Interfaces ............................................................................................ 3
+        3.2 Hardware Interfaces..................................................................................... 3
+        3.3 Software Interfaces ..................................................................................... 3
+        3.4 Communications Interfaces .......................................................................... 3
 
-1.3 Intended Audience and Reading Suggestions
-<Describe the different types of reader that the document is intended for, such as developers,
-project managers, marketing staff, users, testers, and documentation writers. Describe what the
-rest of this SRS contains and how it is organized. Suggest a sequence for reading the document,
-beginning with the overview sections and proceeding through the sections that are most pertinent
-to each reader type.>
-This document is meant to be used by the developers, project managers, testers and documentation writers of the facebook messenger chatbot. The developers will need to include the details specified in this document to make the product conclusive as required, hence they are part of the audience to which it is addressed. The sequence of reading will be as follows….
- Project managers….
-Testers…
-Documentation writers…. 
+    System Features...........................................................................................................4
+        4.1 System Feature 1........................................................................................... 4
+        4.2 System Feature 2 (and so on).......................................................................... 4
 
+    Other Nonfunctional Requirements..................................................................................4
+        5.1 Performance Requirements............................................................................ 4
+        5.2 Safety Requirements...................................................................................... 5
+        5.3 Security Requirements................................................................................... 5
+        5.4 Software Quality Attributes............................................................................. 5
+        5.5 Business Rules.............................................................................................. 5
 
-1.4 Product Scope
-<Provide a short description of the software being specified and its purpose, including relevant
-benefits, objectives, and goals. Relate the software to corporate goals or business strategies. If a
-separate vision and scope document is available, refer to it rather than duplicating its contents
-here.>
+    Other Requirements .......................................................................................................5
+        Appendix A: Glossary...........................................................................................5
+        Appendix B: Analysis Models.................................................................................5
+        Appendix C: To Be Determined List.........................................................................6
 
-Chatbots are a new but rapidly growing technology that is being integrated within many existing social media applications like Facebook messenger, skype, kik among others. This technology allows users of those social media applications to carry on conversations with a computer the same way they would with fellow humans.
-For the one in question, it is intended to be a news chatbot specific to Facebook messenger that will allow users to subscribe for in order to access news as it comes in from sources, request for topics of choice and even unsubscribe from at any time of wish.
-This is aimed at extend useful information to social media platforms specifically Facebook messenger which has registered overwhelming growths in the number of users over the years and to integrate multiple functionalities within a single application for example using the Facebook messenger as a chat platform and at the same time a news browser.
-Some businesses can even use this platform to advertise their products in form of news feeds 
+###Revision History No revision history available yet.
 
-1.5 References
-<List any other documents or Web addresses to which this SRS refers. These may include user
-interface style guides, contracts, standards, system requirements specifications, use case
-documents, or a vision and scope document. Provide enough information so that the reader could
-access a copy of each reference, including title, author, version number, date, and source or
-location.>
-2. Overall Description
-2.1 Product Perspective
-<Describe the context and origin of the product being specified in this SRS. For example, state
-whether this product is a follow-on member of a product family, a replacement for certain existing
-systems, or a new, self-contained product. If the SRS defines a component of a larger system,
-relate the requirements of the larger system to the functionality of this software and identify
-interfaces between the two. A simple diagram that shows the major components of the overall
-system, subsystem interconnections, and external interfaces can be helpful.>
+###1. Introduction ####1.1 Purpose
+
+This document is intended to provide a detailed description of the requirement specifications for a chatbot to be built within Facebook messenger. There are no revisions or number releases of this document so far therefore this will be the first release of its kind with version number (Version 1.0.0). The document will specifically focus attention on reqirements specifications for a news chatbot as the product in question.
+
+####1.2 Document Conventions
+
+####1.3 Intended Audience and Reading Suggestions
+
+This document is meant to be used by the developers, project managers, testers and documentation writers of the Facebook messenger chatbot. The developers will need to include the details specified in this document to make the product conclusive as required, hence they are part of the audience to which it is addressed. The sequence of reading will be as follows….
+
+####1.4 Product Scope
+
+Chatbots are a new but rapidly growing technology that is being integrated within many existing social media applications like Facebook messenger, skype, kik among others. This technology allows users of those social media applications to carry on conversations with a computer the same way they would with fellow humans. For the one in question, it is intended to be a news chatbot specific to Facebook messenger that will allow users to subscribe for in order to access news as it comes in from sources, request for topics of choice and even unsubscribe from at any time of wish. This is aimed at extending useful information to social media platforms specifically Facebook messenger which has registered overwhelming growths in the number of users over the years and to integrate multiple functionalities within a single application for example using the Facebook messenger as a chat platform and at the same time a news browser. Some businesses on the other hand can take advantage of this platform to advertise their products in form of news feeds.
+
+####1.5 References
+
+###2. Overall Description ####2.1 Product Perspective
 
 The chatbot is going to be a news bot that will integrate news into the social life of the Facebook messenger users. That is; one will be able to access news about any events of interest just on his/her screen conveniently in the same way they receive chat messages from friends. This will be done in form of an interaction with the bot by sending messages on topics of interest and in response will be all news findings on the topic.
 
 Integration of business oriented aspects into the chatbot to enable users to know about frequently used products and products being advertised on the chatbot
 
 With the idea to provide news to Facebook messenger users, we intend to implement it within Facebook messenger because of the large numbers of the users of the media who are over nine hundred million. This will therefore make a great audience to the chatbot and the services that it will provide to the users. Given the fact that the chatbot is being built within Facebook messenger, it is typically not self-contained as it will use some privileges from the messenger and Facebook such as the audiences, shelter, and protocols among others.
-Simple diagram to illustrate the system…. 
 
-2.2 Product Functions
-<Summarize the major functions the product must perform or must let the user perform. Details
-will be provided in Section 3, so only a high level summary (such as a bullet list) is needed here.
-Organize the functions to make them understandable to any reader of the SRS. A picture of the
-major groups of related requirements and how they relate, such as a top level data flow diagram or
-object class diagram, is often effective.>
+####2.2 Product Functions
 
+    Subscribe to the news chatbot.
+    Receive news.
+    Search news by category and keyword.
+    Receive news notifications within Facebook messenger.
+    Unsubscribe from chatbot.
 
+####A Class diagram showing product relation
 
-2.3 User Classes and Characteristics
-<Identify the various user classes that you anticipate will use this product. User classes may be
-differentiated based on frequency of use, subset of product functions used, technical expertise,
-security or privilege levels, educational level, or experience. Describe the pertinent characteristics
-of each user class. Certain requirements may pertain only to certain user classes. Distinguish the
-most important user classes for this product from those who are less important to satisfy.>
-2.4 Operating Environment
-<Describe the environment in which the software will operate, including the hardware platform,
-operating system and versions, and any other software components or applications with which it
-must peacefully coexist.>
-2.5 Design and Implementation Constraints
-<Describe any items or issues that will limit the options available to the developers. These might
-include: corporate or regulatory policies; hardware limitations (timing requirements, memory
-requirements); interfaces to other applications; specific technologies, tools, and databases to be
-used; parallel operations; language requirements; communications protocols; security
-considerations; design conventions or programming standards (for example, if the customer’s
-organization will be responsible for maintaining the delivered software).>
-2.6 User Documentation
-<List the user documentation components (such as user manuals, on-line help, and tutorials) that
-will be delivered along with the software. Identify any known user documentation delivery formats
-or standards.>
-Software Requirements Specification for <Project> Page 3
-2.7 Assumptions and Dependencies
-<List any assumed factors (as opposed to known facts) that could affect the requirements stated in
-the SRS. These could include third-party or commercial components that you plan to use, issues
-around the development or operating environment, or constraints. The project could be affected if
-these assumptions are incorrect, are not shared, or change. Also identify any dependencies the
-project has on external factors, such as software components that you intend to reuse from
-another project, unless they are already documented elsewhere (for example, in the vision and
-scope document or the project plan).>
-3. External Interface Requirements
-3.1 User Interfaces
-<Describe the logical characteristics of each interface between the software product and the
-users. This may include sample screen images, any GUI standards or product family style guides
-that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that
-will appear on every screen, keyboard shortcuts, error message display standards, and so on.
-Define the software components for which a user interface is needed. Details of the user interface
-design should be documented in a separate user interface specification.>
+diagram/////
 
+####2.3 User Classes and Characteristics
+User class 	Frequency of use 	Technical expertise 	Privilege level
+User 	Use at any time of choice 	I.T basic knowledge of using computer and mobile applications 	High
+Client / customer 	Checking for usability and user requirements 	
 
+    I.T basic knowledge
+    System Management skills
 
-3.2 Hardware Interfaces
-<Describe the logical and physical characteristics of each interface between the software product
-and the hardware components of the system. This may include the supported device types, the
-nature of the data and control interactions between the software and the hardware, and
-communication protocols to be used.>
+	Medium
+Developer 	During product testing, implementation and maintenance 	
 
-Our chatbot will run on all devices and operating systems that support Facebook messenger that is to say, laptops, desktops, handheld devices among many others. 
-Basically, messages in form of texts and images shall be shared on this chatbot.
+    Computer application development skills
+    Project management skills
+
+	Low
+
+####2.4 Operating Environment
+
+The software will operate specifically in Facebook messenger versions that support chatbots, running on all devices that support Facebook messenger for example mobile hand held devices, laptops and desktop computers.
+
+####2.5 Design and Implementation Constraints
+
+The chatbot will only run in Facebook messenger therefore will accord to all term and conditions of Facebook and Facebook messenger applications plus all government policies that apply to social media applications. It will follow all software development standards in php as a programming language.
+
+####2.6 User Documentation
+
+####2.7 Assumptions and Dependencies
+
+###3. External Interface Requirements ####3.1 User Interfaces
+
+####3.2 Hardware Interfaces
+
+Our chatbot will run on all devices and operating systems that support Facebook messenger that is to say, laptops, desktops, handheld devices among many others. Basically, messages in form of texts and images shall be shared on this chatbot.
+
 Users shall require to be connected to the internet to perform all the desired news searches since the application is internet-based and uses all internet protocols to share data. In addition to the protocols, all information shall be stored and retrieved from the cloud (online servers).
+
 During a chat with the bot, copies of all text and images are stored on both the cloud and the local device storage from which the user can review at a later time even without an internet connection. Synchronization of information between the local storage and the online servers occur whenever there is an internet connection.
 
-3.3 Software Interfaces
-<Describe the connections between this product and other specific software components (name
-and version), including databases, operating systems, tools, libraries, and integrated commercial
-components. Identify the data items or messages coming into the system and going out and
-describe the purpose of each. Describe the services needed and the nature of communications.
-Refer to documents that describe detailed application programming interface protocols. Identify
-data that will be shared across software components. If the data sharing mechanism must be
-implemented in a specific way (for example, use of a global data area in a multitasking operating
-system), specify this as an implementation constraint.>
+####3.3 Software Interfaces
 
-Our chatbot runs within all versions of Facebook messenger application. 
+Our chatbot runs within all versions of Facebook messenger application.
 
-3.4 Communications Interfaces
-<Describe the requirements associated with any communications functions required by this
-product, including e-mail, web browser, network server communications protocols, electronic
-forms, and so on. Define any pertinent message formatting. Identify any communication standards
-that will be used, such as FTP or HTTP. Specify any communication security or encryption issues,
-data transfer rates, and synchronization mechanisms.>
-Software Requirements Specification for <Project> Page 4
-4. System Features
-<This template illustrates organizing the functional requirements for the product by system
-features, the major services provided by the product. You may prefer to organize this section by
-use case, mode of operation, user class, object class, functional hierarchy, or combinations of
-these, whatever makes the most logical sense for your product.>
+####3.4 Communications Interfaces
 
+###4. System Features
 
+####4.1 System Feature 1
 
-4.1 System Feature 1
-<Don’t really say “System Feature 1.” State the feature name in just a few words.>
-4.1.1 Description and Priority
-<Provide a short description of the feature and indicate whether it is of High,
-Medium, or Low priority. You could also include specific priority component ratings,
-such as benefit, penalty, cost, and risk (each rated on a relative scale from a low of 1
-to a high of 9).>
-4.1.2 Stimulus/Response Sequences
-<List the sequences of user actions and system responses that stimulate the
-behavior defined for this feature. These will correspond to the dialog elements
-associated with use cases.>
-4.1.3 Functional Requirements
-<Itemize the detailed functional requirements associated with this feature. These are
-the software capabilities that must be present in order for the user to carry out the
-services provided by the feature, or to execute the use case. Include how the
-product should respond to anticipated error conditions or invalid inputs.
-Requirements should be concise, complete, unambiguous, verifiable, and necessary.
-Use “TBD” as a placeholder to indicate when necessary information is not yet
-available.>
-<Each requirement should be uniquely identified with a sequence number or a
-meaningful tag of some kind.> REQ-1: REQ-2:
-4.2 System Feature 2 (and so on)
-5. Other Nonfunctional Requirements
-5.1 Performance Requirements
-<If there are performance requirements for the product under various circumstances, state them
-here and explain their rationale, to help the developers understand the intent and make suitable
-design choices. Specify the timing relationships for real time systems. Make such requirements as
-specific as possible. You may need to state performance requirements for individual functional
-requirements or features.>
-Software Requirements Specification for <Project> Page 5
-5.2 Safety Requirements
-<Specify those requirements that are concerned with possible loss, damage, or harm that could
-result from the use of the product. Define any safeguards or actions that must be taken, as well as
-actions that must be prevented. Refer to any external policies or regulations that state safety
-issues that affect the product’s design or use. Define any safety certifications that must be
-satisfied.>
-5.3 Security Requirements
-<Specify any requirements regarding security or privacy issues surrounding use of the product or
-protection of the data used or created by the product. Define any user identity authentication
-requirements. Refer to any external policies or regulations containing security issues that affect the
-product. Define any security or privacy certifications that must be satisfied.>
-5.4 Software Quality Attributes
-<Specify any additional quality characteristics for the product that will be important to either the
-customers or the developers. Some to consider are: adaptability, availability, correctness,
-flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability,
-and usability. Write these to be specific, quantitative, and verifiable when possible. At the least,
-clarify the relative preferences for various attributes, such as ease of use over ease of learning.>
-5.5 Business Rules
-<List any operating principles about the product, such as which individuals or roles can perform
-which functions under specific circumstances. These are not functional requirements in
-themselves, but they may imply certain functional requirements to enforce the rules.>
-6. Other Requirements
-<Define any other requirements not covered elsewhere in the SRS. This might include database
-requirements, internationalization requirements, legal requirements, reuse objectives for the
-project, and so on. Add any new sections that are pertinent to the project.>
-Appendix A: Glossary
-<Define all the terms necessary to properly interpret the SRS, including acronyms and
-abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire
-organization, and just include terms specific to a single project in each SRS.>
-Appendix B: Analysis Models
-<Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams,
-state-transition diagrams, or entity-relationship diagrams.>
-Software Requirements Specification for <Project> Page 6
-Appendix C: To Be Determined List
-<Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they
-can be tracked to closure.>
+####4.1.1 Description and Priority
+
+####4.1.2 Stimulus/Response Sequences
+
+####4.1.3 Functional Requirements
+
+####4.2 System Feature 2 (and so on) ###5. Other Nonfunctional Requirements ####5.1 Performance Requirements
+
+####5.2 Safety Requirements
+
+The chatbot will conform to the phone settings of the user that is to say the font sizes, screen brightness among others. It will have high contrasting colors (colors that do not overshadow one another) to avoid over straining of the users’ sight as they use the chatbot. This will possibly cater for all individual sight issues since every user shall be familiar with their own settings.
+
+####5.3 Security Requirements
+
+As a security precaution, the users of the chatbot shall be assumed to be those of Facebook messenger since it is used within the messenger therefore only those authenticated into Facebook messenger can subscribe to the services of the chatbot. Only subscribed users shall receive notifications and news from the chatbot and at subscription, a user shall be required to verify ownership of the Facebook messenger account with some security questions. On the other hand, all user data shall be stored on Facebook online severs following all restrictions on who accesses which data, why and how.
+
+####5.4 Software Quality Attributes
+
+Below are the intended quality attributes that the software will meet;
+
+    Usability, the product shall exhaust all user requirements as listed and perform all desired tasks.
+    Security, precautions on who accesses the user data, how the data is stored, who is allowed to use the chatbot among others shall be considered.
+    Learnability, the software will be developed with familiar interfaces to ease learning.
+    Availability, always available anytime anywhere.
+    Reliability, error alerts and recovery mechanisms in times of component failure.
+    Correctness, the software shall perform all required tasks as expected and desired to completion.
+    Flexibility, the chatbot shall be easy to integrate within some previous versions of Facebook messenger though not all.
+    Safety, all possible safety precautions concerning application use shall be met for example font sizes, color selections, brightness, all to minimize damages that may result from using the chatbot.
+    Reusability, the classes, objects, interfaces, subsystems used to develop the chatbot shall be available for reuse in other projects of similar goals just as other already existing ones shall be reused to develop it.
+    Maintainability, it will be easy to maintain with clearly joined interfaces and components.
+    Portability, the software shall be a cross platform software developed to run on all operating systems that support Facebook messenger for example windows OS, Android OS, Mac OS.
+    Scalability, the chatbot shall be able to accommodate increasing numbers of users and increasing amounts of data without affecting performance.
+
+Though all the mentioned attributes shall be met, some shall be given high priorities than others for example;
+
+    scalability has a higher preference than flexibility reason being developing a scalable product is more important than developing one that fits with the existing one.
+    Ease of use is preferred to ease of learning because an easy to use product may need less or no training at all.
+
+####5.5 Business Rules
+
+###6. Other Requirements
+
+####Appendix A: Glossary
+
+####Appendix B: Analysis Models
+
+####Appendix C: To Be Determined List
+
